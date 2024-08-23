@@ -1,5 +1,5 @@
 const mongodb = require("mongodb");
-const MongoClient = mongodb.mongoClient;
+const MongoClient = mongodb.MongoClient;
 
 const mongoConnect = (callback)=>{
   MongoClient.connect(
